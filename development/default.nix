@@ -6,6 +6,7 @@ let
         catppuccin.catppuccin-vsc
         catppuccin.catppuccin-vsc-icons
         jnoortheen.nix-ide
+        james-yu.latex-workshop
       ];
     };
 in

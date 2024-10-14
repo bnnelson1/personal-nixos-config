@@ -1,4 +1,4 @@
-{ pkgs, fetchurl, ... }: 
+{ pkgs, ... }: 
 
 {  
   environment.systemPackages = with pkgs; [

@@ -1,8 +1,8 @@
-{ pkgs, ... }:
+{ ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    obsidian
+  imports = [
+    ./office
   ];
-
 }
+

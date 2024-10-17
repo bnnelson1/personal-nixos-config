@@ -3,6 +3,7 @@
 {
   imports = [
     ./office
+    ./communication
     ./audio
   ];
 }

@@ -7,6 +7,8 @@ let
         catppuccin.catppuccin-vsc-icons
         jnoortheen.nix-ide
         james-yu.latex-workshop
+        ms-python.python
+        ms-python.vscode-pylance
         dart-code.dart-code
         dart-code.flutter
       ];

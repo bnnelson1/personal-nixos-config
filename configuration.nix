@@ -65,6 +65,7 @@
   services.xserver.videoDrivers = [ "nvidia" ];
   hardware.nvidia = {
     modesetting.enable = true;
+    open = false; # The open-source modules do not support architectures older than Turing.
   };
 
   # Seems to fix some issues with Plasma 6 Wayland
